@@ -2,7 +2,7 @@ import numpy as np
 import os
 import struct
 import sys
-from scipy.misc import toimage
+# from scipy.misc import toimage
 
 
 # Follow this link to find more info regarding the format of the file:
