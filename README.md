@@ -7,7 +7,7 @@ These are not intended for any other use other than my own personal study.
 ## Dependencies ##
 Python 3.5^ needs to be installed on the system.
 The notes use iPython (Jupyter notebooks) as this enables the combination of code and mark-up language in the same environment which I believe greatly aids in understanding.<br>
-Jupyter can be downloaded here: <br>http://jupyter.org/
+Jupyter can be downloaded here: http://jupyter.org/ <br>
 Or through anaconda:<br>
 `conda install jupyter notebook`<br>
 Or possibly pip and virtualenv if you are into that kind of thing.<br>
