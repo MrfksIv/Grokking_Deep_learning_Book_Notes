@@ -9,8 +9,8 @@ import sys
 # http://yann.lecun.com/exdb/mnist/
 
 
-def load_image_file(filename):
-    with open(os.path.join("data", filename), "rb") as f:
+def load_image_file(path, filename):
+    with open(os.path.join(path, filename), "rb") as f:
         data = f.read()
     f.close()
     
@@ -26,8 +26,8 @@ def load_image_file(filename):
     
     return im_np_arr
 
-def load_labels_file(filename):
-    with open(os.path.join("data", filename), "rb") as f:
+def load_labels_file(path, filename):
+    with open(os.path.join(path, filename), "rb") as f:
         data = f.read()
     f.close()
     
